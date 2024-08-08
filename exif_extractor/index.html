@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EXIF Data extractor</title>
+    <link rel="stylesheet" href="exifExtractor.css">
+</head>
+<body style="width: auto;">
+
+    <h1>EXIF Extractor</h1>
+
+    <h4>Upload a local file to read Exif data:</h4>
+    <input id="file-input" type="file" />
+    <br/>
+    <p style="padding-left: 45%;">- OR -</p>
+    <h4>Enter the URL to read the EXIF data:</h4>
+    <input id="imgSrc" type="text"/>
+    <br/><br/>
+    <button id="searchImg">Search</button>
+    <br/>
+
+    <p style="padding-left: 33%;">EXIF Information</p>
+    <p style="border:1px solid Black; padding-left: 2%;" id="exifInformation">
+
+    </p>
+
+    <div id="targetImg"></div>
+
+</body>
+
+    <script type="text/javascript" src="/exif.js"></script>
+    <script src="runtime.js"></script>
+
+</html>

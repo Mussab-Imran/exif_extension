@@ -1,0 +1,10 @@
+{
+    "name": "EXIF Extractor",
+    "description": "A simple browser plugin that helps users to extract the EXIF data stored in images hosted online or stored locally on their PC",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "EXIF_EXTRACTOR.png"
+    }
+  }
